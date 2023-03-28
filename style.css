@@ -18,6 +18,10 @@ hr {
 
 }
 
+/** spcaes **/
+
+
+
 /** container **/
 
 .container {
@@ -32,7 +36,8 @@ hr {
 
 /** links **/
 
-.link{
+.link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -86,7 +91,7 @@ hr {
 }
 
 .navigation .link-active {
-    font-size: bold;
+    font-weight: bold;
 }
 
 
@@ -95,6 +100,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-image {
@@ -143,6 +149,11 @@ hr {
 
 .footer .link{
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul {
