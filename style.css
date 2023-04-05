@@ -33,6 +33,10 @@ hr {
     margin: auto;
 }
 
+.container-left{
+    margin-left: auto;
+}
+
 
 /** links **/
 
@@ -53,6 +57,13 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+
+.link-blog {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0rem;
+}
+
 
 
 /** lists **/
